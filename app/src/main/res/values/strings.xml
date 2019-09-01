@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SolarSystemApp</string>
+    <string name="spaceobject_name">Nama Object Luar Angkasa</string>
 </resources>
