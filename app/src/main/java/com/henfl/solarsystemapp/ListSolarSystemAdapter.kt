@@ -1,5 +1,6 @@
 package com.henfl.solarsystemapp
 
+import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
@@ -42,9 +43,9 @@ class ListSolarSystemAdapter(private val listSolarSystem: ArrayList<SolarSystem>
             moveToDetail.putExtra(DetailsOfSolarSystemActivity.EXTRA_VOLUME, volume)
             moveToDetail.putExtra(DetailsOfSolarSystemActivity.EXTRA_DIAMETER, diameter)
             moveToDetail.putExtra(DetailsOfSolarSystemActivity.EXTRA_DESC, desc)
-            moveToDetail.putExtra((DetailsOfSolarSystemActivity.EXTRA_PHOTO, photo)
+            moveToDetail.putExtra(DetailsOfSolarSystemActivity.EXTRA_PHOTO, photo)
 
-            moveContext.startActivities(moveToDetail)
+            moveContext.startActivities(arrayOf(moveToDetail))
         }
     }
 

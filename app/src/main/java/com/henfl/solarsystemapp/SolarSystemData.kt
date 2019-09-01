@@ -65,7 +65,7 @@ object SolarSystemData {
             """.trimIndent(),
             "12.092 km",
             "Venus dalah salah satu dari empat planet kebumian di Tata Surya, yang berarti bahwa Venus merupakan planet yang berbatu layaknya Bumi. Akan tetapi, keadaan di permukaan Venus sangat berbeda dengan Bumi, dan hal ini disebabkan oleh atmosfer tebal Venus yang terdiri dari 96,5% karbon dioksida dan 3,5% nitrogen.",
-            "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg"
         ),
         arrayOf(
             "Bumi",
@@ -99,7 +99,7 @@ object SolarSystemData {
             """.trimIndent(),
             "",
             "Mars adalah planet terdekat keempat dari Matahari. Namanya diambil dari dewa perang Romawi, Mars. Planet ini sering dijuluki sebagai \"planet merah\" karena tampak dari jauh berwarna kemerah-kemerahan. Ini disebabkan oleh keberadaan besi(III) oksida di permukaan planet Mars.",
-            "https://upload.wikimedia.org/wikipedia/commons/7/76/Mars_Hubble.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/7/76/Mars_Hubble.jpg"
         ),
         arrayOf(
             "Ceres",
@@ -232,17 +232,17 @@ object SolarSystemData {
             "2370 km",
             "Pluto merupakan planet katai terbesar dan bermassa terbesar kedua di Tata Surya dan benda terbesar kesembilan dan bermassa terbesar kesepuluh yang mengorbit Matahari secara langsung. Pluto merupakan objek trans-Neptunus dengan volume terbesar dan massa yang sedikit lebih kecil daripada Eris, planet katai di piringan tersebar. ",
             "https://upload.wikimedia.org/wikipedia/commons/5/5a/Pluto_by_LORRI_and_Ralph%2C_13_July_2015.jpg"
-        ),
+        )
     )
 
     val listData: ArrayList<SolarSystem>
         get() {
             val list = arrayListOf<SolarSystem>()
-            for (aData in SolarSystem) {
+            for (aData in data) {
                 val spaceObj = SolarSystem()
                 spaceObj.name=aData[0]
-                spaceObj.orbitPeriod=aData[1]
-                spaceObj.rotationPeriod=aData[2]
+                spaceObj.orbitP=aData[1]
+                spaceObj.rotP=aData[2]
                 spaceObj.area=aData[3]
                 spaceObj.mass=aData[4]
                 spaceObj.volume=aData[5]

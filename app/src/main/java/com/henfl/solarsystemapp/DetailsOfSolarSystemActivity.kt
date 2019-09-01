@@ -47,7 +47,7 @@ class DetailsOfSolarSystemActivity : AppCompatActivity() {
 
         Glide.with(this)
             .load(photo)
-            .apply(RequestOptions)
+            .apply(RequestOptions())
             .into(imgPhoto)
 
         tvDesc.text=desc

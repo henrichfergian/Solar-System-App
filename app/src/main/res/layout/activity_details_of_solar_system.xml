@@ -38,7 +38,7 @@
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Data Object"/>
+                android:text="@string/data_object"/>
 
         <TableLayout
                 android:layout_width="match_parent"
@@ -50,14 +50,13 @@
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Periode Orbit"/>
+                        android:text="@string/orbital_period"/>
 
                 <TextView
                         android:id="@+id/tv_item_orbitP"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/solarsys_orbitP"/>
-
             </TableRow>
 
             <TableRow
@@ -66,14 +65,13 @@
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Periode Rotasi"/>
+                        android:text="@string/rotation_period"/>
 
                 <TextView
                         android:id="@+id/tv_item_rotP"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/solarsys_rotP"/>
-
             </TableRow>
 
             <TableRow
@@ -82,7 +80,7 @@
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Luas Permukaan"/>
+                        android:text="@string/area"/>
 
                 <TextView
                         android:id="@+id/tv_item_area"
@@ -98,14 +96,13 @@
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Massa"/>
+                        android:text="@string/mass"/>
 
                 <TextView
                         android:id="@+id/tv_item_mass"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/solarsys_mass"/>
-
             </TableRow>
 
             <TableRow
@@ -114,14 +111,13 @@
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Volume"/>
+                        android:text="@string/volume"/>
 
                 <TextView
                         android:id="@+id/tv_item_volume"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/solarsys_vol"/>
-
             </TableRow>
 
             <TableRow
@@ -131,16 +127,13 @@
                 <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Diameter"/>
-
+                        android:text="@string/diameter"/>
                 <TextView
                         android:id="@+id/tv_item_diameter"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/solarsys_diameter"/>
-
             </TableRow>
-
 
         </TableLayout>
 
