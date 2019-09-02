@@ -12,6 +12,9 @@ class AboutProfile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about_profile)
 
+        supportActionBar!!.title="Profil"
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+
         val imgProfile: ImageView=findViewById(R.id.img_item_photo)
         val photo: String="www.dicoding.com"
 

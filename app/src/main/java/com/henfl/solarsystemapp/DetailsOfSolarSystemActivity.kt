@@ -25,6 +25,7 @@ class DetailsOfSolarSystemActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details_of_solar_system)
 
+
         val name = intent.getStringExtra(EXTRA_NAME)
         val orbitP = intent.getStringExtra(EXTRA_ORBITP)
         val rotP = intent.getStringExtra(EXTRA_ROTP)
@@ -34,6 +35,9 @@ class DetailsOfSolarSystemActivity : AppCompatActivity() {
         val diameter = intent.getStringExtra(EXTRA_DIAMETER)
         val desc = intent.getStringExtra(EXTRA_DIAMETER)
         val photo = intent.getStringExtra(EXTRA_PHOTO)
+
+        supportActionBar!!.title="Detail $name"
+        actionBar?.setDisplayHomeAsUpEnabled(true)
 
         val tvName: TextView=findViewById(R.id.tv_item_name)
         val tvOrbitP: TextView=findViewById(R.id.tv_item_orbitP)
