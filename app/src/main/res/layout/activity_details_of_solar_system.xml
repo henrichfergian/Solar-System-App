@@ -22,116 +22,114 @@
 
         <TextView
                 android:id="@+id/tv_item_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="bottom"
-                android:textStyle="bold"
-                android:textSize="20sp"
+                style="@style/TextCon.Title"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/spaceobject_name"/>
 
         <TextView
-                android:id="@+id/tv_item_desc"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/TextCon.Subtitle"
+                android:layout_marginBottom="16dp"
                 android:text="@string/solarsys_desc"/>
 
         <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:id="@+id/tv_item_desc"
+                style="@style/TextCon.Black"
+                android:layout_marginBottom="16dp"
+                android:text="@string/solarsys_desc"/>
+
+        <TextView
+                style="@style/TextCon.Subtitle"
+                android:layout_marginBottom="8dp"
                 android:text="@string/data_object"/>
 
         <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp">
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
 
                 <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Field"
                         android:text="@string/orbital_period"/>
 
                 <TextView
                         android:id="@+id/tv_item_orbitP"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Value"
                         android:text="@string/solarsys_orbitP"/>
             </TableRow>
 
             <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
                 <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Field"
                         android:text="@string/rotation_period"/>
 
                 <TextView
                         android:id="@+id/tv_item_rotP"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Value"
                         android:text="@string/solarsys_rotP"/>
             </TableRow>
 
             <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
                 <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Field"
                         android:text="@string/area"/>
 
                 <TextView
                         android:id="@+id/tv_item_area"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Value"
                         android:text="@string/solarsys_area"/>
             </TableRow>
 
             <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
                 <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Field"
                         android:text="@string/mass"/>
 
                 <TextView
                         android:id="@+id/tv_item_mass"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Value"
                         android:text="@string/solarsys_mass"/>
             </TableRow>
 
             <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
                 <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Field"
                         android:text="@string/volume"/>
 
                 <TextView
                         android:id="@+id/tv_item_volume"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Value"
                         android:text="@string/solarsys_vol"/>
             </TableRow>
 
             <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
 
                 <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Field"
                         android:text="@string/diameter"/>
                 <TextView
                         android:id="@+id/tv_item_diameter"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/TextData.Value"
                         android:text="@string/solarsys_diameter"/>
             </TableRow>
 

@@ -6,55 +6,62 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".AboutProfile">
+        tools:context=".AboutProfile"
+        android:background="@android:color/white">
 
     <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_item_photo"
-            android:layout_marginTop="16dp"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
             android:layout_gravity="center"
             tools:src="@android:color/darker_gray"/>
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp">
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="8dp">
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_action_name"
                 android:layout_gravity="center"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_action_name"
                 android:scaleType="fitCenter"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_weight="1">
                 <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="@android:color/darker_gray"
-                        android:text="Nama"/>
+                        style="@style/TextProfil.Field"
+                        android:text="@string/name"/>
 
                 <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="20sp"
-                        android:textStyle="bold"
-                        android:text="Henrich Fergian L"/>
+                        style="@style/TextProfil.Value.White"
+                        android:text="@string/my_name"/>
             </LinearLayout>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@color/colorAccent">
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
                 android:src="@drawable/ic_action_name"
                 android:layout_gravity="center"
                 android:scaleType="fitCenter"/>
@@ -62,21 +69,17 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_weight="1">
 
                 <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="@android:color/darker_gray"
+                        style="@style/TextProfil.Field"
                         android:text="@string/e_mail"/>
 
                 <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="20sp"
-                        android:textStyle="bold"
-                        android:text="@string/my_email"/>
+                        style="@style/TextProfil.Value.White"
+                        android:text="@string/my_email"
+                        android:textColor="@android:color/white"/>
             </LinearLayout>
         </TableRow>
     </TableLayout>

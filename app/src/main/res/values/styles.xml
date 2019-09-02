@@ -7,5 +7,70 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <style name="TextData">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextData.Field">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="TextData.Value">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextCon" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="TextCon.Title">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="TextCon.Black">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextCon.List">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="TextCon.Subtitle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextProfil" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextProfil.Field">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextProfil.Value">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextProfil.Value.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 
 </resources>
