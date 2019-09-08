@@ -45,6 +45,6 @@ class DetailsOfSolarSystemActivity : AppCompatActivity() {
 
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
-        return true
+        return super.onSupportNavigateUp()
     }
 }
