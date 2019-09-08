@@ -16,9 +16,8 @@
     <TextView
             android:id="@+id/tv_item_name"
             style="@style/TextCon.List"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_toEndOf="@id/img_item_photo"
+            android:layout_toRightOf="@id/img_item_photo"
             android:layout_centerVertical="true"
             tools:text="@string/spaceobject_name"/>
 

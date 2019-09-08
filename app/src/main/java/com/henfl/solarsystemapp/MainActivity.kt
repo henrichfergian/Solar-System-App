@@ -1,11 +1,11 @@
 package com.henfl.solarsystemapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         rvSolarSystem.layoutManager=LinearLayoutManager(this)
-        val listSpaceObjAdapter=ListSolarSystemAdapter(list)
-        rvSolarSystem.adapter = listSpaceObjAdapter
+        val listSolarSystemAdapter=ListSolarSystemAdapter(list)
+        rvSolarSystem.adapter = listSolarSystemAdapter
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -38,14 +38,15 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_profile -> {
-                val moveProfilIntent=Intent(this@MainActivity, AboutProfile::class.java)
+                val moveProfilIntent= Intent(this@MainActivity, AboutProfile::class.java)
                 startActivity(moveProfilIntent)
             }
 
             R.id.action_share_app -> {
-                Toast.makeText(this, "Share Aplikasi Solar System",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Share Aplikasi Solar System", Toast.LENGTH_SHORT).show()
             }
         }
         return super.onOptionsItemSelected(item)
     }
+
 }

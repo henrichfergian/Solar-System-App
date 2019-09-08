@@ -4,21 +4,12 @@
     <string name="solarsys_desc">Deskripsi Obyek</string>
     <string name="solarsys_orbitP">Orbital period value</string>
     <string name="data_object">Data Obyek</string>
-    <string name="orbital_period">Periode Orbit</string>
-    <string name="rotation_period">Periode Rotasi</string>
-    <string name="solarsys_rotP">Rotation period value</string>
-    <string name="area">Luas Permukaan</string>
-    <string name="solarsys_area">Area value</string>
-    <string name="mass">Massa</string>
-    <string name="solarsys_mass">mass value</string>
-    <string name="volume">Volume</string>
-    <string name="solarsys_vol">volume value</string>
-    <string name="diameter">Diameter</string>
-    <string name="solarsys_diameter">Diameter value</string>
+    <string name="tabel_field">Periode Orbit\n\n\nPeriode Rotasi\n\n\nLuas Permukaan\n\n\nMassa\n\n\nVolume\n\n\nDiameter</string>
     <string name="profile">Profile</string>
     <string name="share_aplikasi">Share Aplikasi</string>
     <string name="e_mail">E-Mail</string>
     <string name="my_email">henrichfergian1@gmail.com</string>
     <string name="name">Nama</string>
     <string name="my_name">Henrich Fergian L</string>
+    <string name="value_data">value data</string>
 </resources>
